@@ -1,4 +1,8 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<CadastroDeLivrosContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("CadastroDeLivrosContext") ?? throw new InvalidOperationException("Connection string 'CadastroDeLivrosContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

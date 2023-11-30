@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CadastroDeLivros")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3557edd0be441121f41557e7456cc4e9016883d8")]
 [assembly: System.Reflection.AssemblyProductAttribute("CadastroDeLivros")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CadastroDeLivros")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
